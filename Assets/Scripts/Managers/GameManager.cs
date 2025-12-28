@@ -41,6 +41,9 @@ public class GameManager : MonoBehaviour
     [SerializeField] private List<Transform> lanePositions;
     public List<Transform> LanePositions => lanePositions;
 
+    [SerializeField] private float startingLives;
+    public float StartingLives => startingLives;
+
 
     //[Header("Enemy Settings")]
 
