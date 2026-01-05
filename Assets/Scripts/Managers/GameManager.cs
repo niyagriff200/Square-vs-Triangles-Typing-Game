@@ -44,6 +44,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private float startingLives;
     public float StartingLives => startingLives;
 
+    [SeralizedField] private bool wrapLines = true;
+    public bool WrapLines => wrapLines;
 
     //[Header("Enemy Settings")]
 
